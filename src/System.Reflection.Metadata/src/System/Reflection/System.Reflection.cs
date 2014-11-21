@@ -142,7 +142,7 @@ namespace System.Reflection
         Public = 0x00000001,
 
         /// <summary>
-        /// The Resource is exported from the Assembly
+        /// The resource is private to the Assembly
         /// </summary>
         Private = 0x00000002,
 
@@ -183,7 +183,7 @@ namespace System.Reflection
         Sha384 = 0x800d,
 
         /// <summary>
-        /// Retrieves a version of the Secure Hash Algorithm with a hash size of 384 bits.
+        /// Retrieves a version of the Secure Hash Algorithm with a hash size of 512 bits.
         /// </summary>
         Sha512 = 0x800e
     }
